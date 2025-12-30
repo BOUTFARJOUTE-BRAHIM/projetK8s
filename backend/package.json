@@ -1,0 +1,11 @@
+{
+  "name": "tombola-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5"
+  }
+}
