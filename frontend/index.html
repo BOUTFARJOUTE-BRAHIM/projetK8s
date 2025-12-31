@@ -39,7 +39,7 @@ function register() {
   const name = document.getElementById("name").value;
   const email = document.getElementById("email").value;
 
-  fetch("http://localhost:3000/api/register", {
+  fetch("http://10.109.6.28:3000/api/register", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ name, email })
